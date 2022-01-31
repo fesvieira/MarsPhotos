@@ -20,6 +20,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -51,6 +52,11 @@ class OverviewFragment : Fragment() {
                 val imgUri = imgUrl.toUri().buildUpon().scheme("https").build()
                 binding.imageMars.load(imgUri)
             }
+        })
+
+        viewModel.status.observe(viewLifecycleOwner, {
+            Toast.makeText(requireContext(), viewModel.status.value, Toast.LENGTH_LONG)
+                .show()
         })
 
 
