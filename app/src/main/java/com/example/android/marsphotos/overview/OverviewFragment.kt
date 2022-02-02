@@ -23,6 +23,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import coil.load
 import com.example.android.marsphotos.databinding.FragmentOverviewBinding
@@ -30,7 +31,7 @@ import com.example.android.marsphotos.databinding.FragmentOverviewBinding
 /** This fragment shows the the status of the Mars photos web services transaction. */
 class OverviewFragment : Fragment() {
 
-    private val viewModel: OverviewViewModel by viewModels()
+    private val viewModel: OverviewViewModel by activityViewModels()
     private lateinit var binding: FragmentOverviewBinding
 
     override fun onCreateView(
