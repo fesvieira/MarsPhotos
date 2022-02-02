@@ -14,15 +14,15 @@ class OverviewViewModel : ViewModel() {
     private val _status = MutableLiveData<String>()
     val status: LiveData<String> = _status
 
-    private val _photos = MutableLiveData<MarsPhoto>()
+    private val _photos = MutableLiveData<List<MarsPhoto>>()
     val photos get() = _photos
 
     // Gets Mars photos information from the Mars API Retrofit service
     fun getMarsPhotos() {
         viewModelScope.launch {
             try {
-                _photos.value = MarsApi.retrofitService.getPhotos()[0]
-                _status.value = "Image ${_photos.value!!.id} URL: ${_photos.value!!.imgSrcUrl}"
+                _photos.value = MarsApi.retrofitService.getPhotos()
+                _status.value = "Success: Mars properties retrieved"
             } catch (e: Exception) {
                 _status.value = "Failure: ${e.message}"
             }

@@ -5,6 +5,17 @@
       <map>
         <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_HTTP/MarsPhotosApp/app/src/main/res/layout/activity_main.xml" value="0.3729166666666667" />
         <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_HTTP/MarsPhotosApp/app/src/main/res/layout/fragment_overview.xml" value="0.3416666666666667" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/drawable/ic_broken_image.xml" value="0.387037037037037" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/drawable/ic_connection_error.xml" value="0.387037037037037" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.387037037037037" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.387037037037037" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/drawable/loading_img.xml" value="0.387037037037037" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/layout/fragment_overview.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/layout/item_grid_view.xml" value="0.34444444444444444" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/layout/item_gridview.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.387037037037037" />
+        <entry key="..\:/AndroidProjects/Tutorials/08_MarsPhothos_Retrofit/MarsPhotosApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.387037037037037" />
       </map>
     </option>
   </component>
